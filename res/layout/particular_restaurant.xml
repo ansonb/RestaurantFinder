@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+    android:fillViewport="true">   
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blank"
+        android:orientation="vertical" >
+        
+            
+        <TextView
+            android:id="@+id/label0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="30sp"
+            android:textColor="#000000" />    
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/blank" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="9.67"
+                android:background="@drawable/thumbsup" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/button1"
+                android:background="@drawable/thumbsdown" />
+        </RelativeLayout>
+
+        <RatingBar
+            android:id="@+id/ratingBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SubmitRating" />
+        <!-- 4169e1 -->
+
+        <EditText
+            android:id="@+id/etmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="friend&apos;s email " />
+
+        <Button
+            android:id="@+id/buttonmail"
+            android:layout_width="170dp"
+            android:layout_height="70dip"
+            android:text="Recommend via mail" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="170dp"
+            android:layout_height="100dip"
+            android:background="@drawable/gmaps"
+            android:text="Show in google maps" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Zomato&apos;s page for photos,menu and more on the restaurant" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Contacts"
+            android:textColor="#4169e1"
+            android:textSize="18dip" />
+
+        <TextView
+            android:id="@+id/discountoffer"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="No offers/discounts available"
+            android:textColor="#000000"
+            android:textSize="18dip" />
+
+        <EditText
+            android:id="@+id/etreview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type a Review" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Review" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="You&apos;re review"
+            android:textColor="#000000"
+            android:textSize="18dip" />
+
+        <TextView
+            android:id="@+id/textUName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="user:"
+            android:textColor="#ffffff"
+            android:textSize="22dip" />
+        <!-- android:textColor="#4169e1" -->
+
+        <TextView
+            android:id="@+id/textReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/textName"
+            android:paddingLeft="10dip"
+            android:paddingTop="4dip"
+            android:text="review:"
+            android:textColor="#ffffff"
+            android:textSize="15dip" />
+
+        <TextView
+            android:id="@+id/textTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textAddress"
+            android:paddingLeft="10dip"
+            android:paddingTop="4dip"
+            android:text="-"
+            android:textColor="#ffffff"
+            android:textSize="15dip" />
+        </LinearLayout>
+</ScrollView>
+ 

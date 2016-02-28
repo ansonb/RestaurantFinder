@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout
+             xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        
+        <WebView
+            android:id="@+id/restaurantphoto"
+            android:layout_width="fill_parent"
+            android:layout_height="5000dp"
+            android:layout_weight="1744" />
+        
+       <TextView
+            android:id="@+id/label"
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:background="#ffa000"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dip"/> 
+        
+       <TextView
+            android:id="@+id/label1"
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentBottom="true"
+            android:background="#004000" 
+            android:textColor="#ffffff"/>
+        
+        </RelativeLayout>
